@@ -57,7 +57,7 @@ You should have the following tables available in your ThoughtSpot account:
 
 ### 3. Create all of the required joins between the views.
 
-| **Source Table** | **Joins** |
+| **Name** | **Joins** |
 | ----------- | ----------- |
 | pg_user_vw | None |
 | stl_alert_event_log_vw |  <img width="500" alt="Screen Shot 2022-03-31 at 2 05 25 PM" src="https://user-images.githubusercontent.com/102629468/161161164-f619ccb5-903d-493b-962d-ae49d048cf15.png">|

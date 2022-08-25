@@ -59,27 +59,20 @@ You should have the following tables available in your ThoughtSpot account:
 
 | **Name** | **Joins** |
 | ----------- | ----------- |
-| CUSTOMER_HOME_CITY_to_CORE_POI | [Uploading Screen Shot 2022-08-24 at 3.34.18 PM.png…]() |
+| CUSTOMER_HOME_CITY_to_CORE_POI | <img width="515" alt="Screen Shot 2022-08-24 at 3 34 18 PM" src="https://user-images.githubusercontent.com/102629468/186546716-492f1fc1-16e4-4bde-a225-816a587d26f1.png"> |
 | CORE_POI_to_SPEND_BY_DAY | <img width="510" alt="Screen Shot 2022-08-24 at 3 34 44 PM" src="https://user-images.githubusercontent.com/102629468/186545928-e8c1308a-81b9-4e44-ac86-d832e79dc44f.png"> |
-| DWELL_TIMES_to_CORE_POI |<img width="520" alt="Screen Shot 2022-08-24 at 3 34 54 PM" src="https://user-images.githubusercontent.com/102629468/186546281-18ace0f2-3935-421c-8fa9-1385f56efc9b.png">
- |
-| VISITS_BY_DAY_to_CORE_POI |<img width="518" alt="Screen Shot 2022-08-24 at 3 35 03 PM" src="https://user-images.githubusercontent.com/102629468/186546293-e65dabd4-0bda-48e2-b24c-2231d466bf78.png">
-  |
-| MEAN_SPEND_PER_CUSTOMER_BY_INCOME_to_CORE_POI | <img width="514" alt="Screen Shot 2022-08-24 at 3 35 11 PM" src="https://user-images.githubusercontent.com/102629468/186546300-67821370-6a86-481d-98ee-38a9a2e076a5.png">
- |
-| SPEND_BY_DAY_OF_WEEK_to_CORE_POI |<img width="501" alt="Screen Shot 2022-08-24 at 3 35 19 PM" src="https://user-images.githubusercontent.com/102629468/186546316-15c5718f-765c-485f-918f-075065b58b7d.png">
-  |
-| Core_POI to CORE_POI_SPEND | <img width="512" alt="Screen Shot 2022-08-24 at 3 35 33 PM" src="https://user-images.githubusercontent.com/102629468/186546346-17b411dd-8e94-435f-b2fc-e40a23304045.png">
- |
-| CORE_POI_to_PATTERNS | <img width="510" alt="Screen Shot 2022-08-24 at 3 35 40 PM" src="https://user-images.githubusercontent.com/102629468/186546372-ec868404-1653-4dfc-9e5f-267687b04219.png">
- |
-| BUCKETED_CUSTOMER_FREQUENCY_to_CORE_POI | <img width="520" alt="Screen Shot 2022-08-24 at 3 35 27 PM" src="https://user-images.githubusercontent.com/102629468/186546337-ba855f8f-9704-4acf-b0e7-3d3b68e7a9c1.png">
- |
-| BUCKETED_CUSTOMER_INCOMES_to_CORE_POI |<img width="510" alt="Screen Shot 2022-08-24 at 3 34 36 PM" src="https://user-images.githubusercontent.com/102629468/186546496-5ac39c98-4e5d-4565-b1fc-b64544dd7a7a.png">
- |
-| TRANSACTION_INTERMEDIARY_to_CORE_POI | <img width="514" alt="Screen Shot 2022-08-24 at 3 34 24 PM" src="https://user-images.githubusercontent.com/102629468/186546507-cfc4cea5-7cf6-471d-b817-4426ee710ecb.png"> |
+| DWELL_TIMES_to_CORE_POI |<img width="520" alt="Screen Shot 2022-08-24 at 3 34 54 PM" src="https://user-images.githubusercontent.com/102629468/186546281-18ace0f2-3935-421c-8fa9-1385f56efc9b.png">|
+| VISITS_BY_DAY_to_CORE_POI |<img width="518" alt="Screen Shot 2022-08-24 at 3 35 03 PM" src="https://user-images.githubusercontent.com/102629468/186546293-e65dabd4-0bda-48e2-b24c-2231d466bf78.png">|
+| MEAN_SPEND_PER_CUSTOMER_BY_INCOME_to_CORE_POI | <img width="514" alt="Screen Shot 2022-08-24 at 3 35 11 PM" src="https://user-images.githubusercontent.com/102629468/186546300-67821370-6a86-481d-98ee-38a9a2e076a5.png">|
+| SPEND_BY_DAY_OF_WEEK_to_CORE_POI |<img width="501" alt="Screen Shot 2022-08-24 at 3 35 19 PM" src="https://user-images.githubusercontent.com/102629468/186546316-15c5718f-765c-485f-918f-075065b58b7d.png">|
+| Core_POI to CORE_POI_SPEND | <img width="512" alt="Screen Shot 2022-08-24 at 3 35 33 PM" src="https://user-images.githubusercontent.com/102629468/186546346-17b411dd-8e94-435f-b2fc-e40a23304045.png">|
+| CORE_POI_to_PATTERNS | <img width="510" alt="Screen Shot 2022-08-24 at 3 35 40 PM" src="https://user-images.githubusercontent.com/102629468/186546372-ec868404-1653-4dfc-9e5f-267687b04219.png">|
+| BUCKETED_CUSTOMER_FREQUENCY_to_CORE_POI | <img width="520" alt="Screen Shot 2022-08-24 at 3 35 27 PM" src="https://user-images.githubusercontent.com/102629468/186546337-ba855f8f-9704-4acf-b0e7-3d3b68e7a9c1.png">|
+| BUCKETED_CUSTOMER_INCOMES_to_CORE_POI |<img width="510" alt="Screen Shot 2022-08-24 at 3 34 36 PM" src="https://user-images.githubusercontent.com/102629468/186546496-5ac39c98-4e5d-4565-b1fc-b64544dd7a7a.png">|
+| TRANSACTION_INTERMEDIARY_to_CORE_POI | <img width="514" alt="Screen Shot 2022-08-24 at 3 34 24 PM" src="https://user-images.githubusercontent.com/102629468/186546507-cfc4cea5-7cf6-471d-b817-4426ee710ecb.png"> | 
 
-Schema: 
+**Schema**: 
+
 <img width="878" alt="Screen Shot 2022-08-24 at 3 34 11 PM" src="https://user-images.githubusercontent.com/102629468/186546543-db69c3fb-7a46-4a76-b564-cace7cf44910.png">
 
 

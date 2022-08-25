@@ -59,22 +59,33 @@ You should have the following tables available in your ThoughtSpot account:
 
 | **Name** | **Joins** |
 | ----------- | ----------- |
-| pg_user_vw | None |
-| stl_alert_event_log_vw |  <img width="500" alt="Screen Shot 2022-03-31 at 2 05 25 PM" src="https://user-images.githubusercontent.com/102629468/161161164-f619ccb5-903d-493b-962d-ae49d048cf15.png">|
-| stl_ddltext_vw | <img width="500" alt="Screen Shot 2022-03-31 at 2 09 52 PM" src="https://user-images.githubusercontent.com/102629468/161161198-9151e011-0146-41cd-9c25-42d959f5f600.png"> |
-| stl_load_errors_vw | <img width="500" alt="Screen Shot 2022-03-31 at 2 10 02 PM" src="https://user-images.githubusercontent.com/102629468/161161218-ec8b4169-66b3-4a4e-b586-bf29427b6406.png"> |
-| stl_plan_info_vw | <img width="500" alt="Screen Shot 2022-03-31 at 2 10 11 PM" src="https://user-images.githubusercontent.com/102629468/161161235-8f79cb01-4211-442a-ad97-959dcaf9c96a.png"> |
-| stl_query_vw | <img width="500" alt="Screen Shot 2022-03-31 at 2 10 22 PM" src="https://user-images.githubusercontent.com/102629468/161161260-fee0a62b-1cee-442a-bee4-5fc19191d775.png"> |
-| stl_query_vw | <img width="500" alt="Screen Shot 2022-03-31 at 2 10 28 PM" src="https://user-images.githubusercontent.com/102629468/161161269-ed815212-420a-42bb-bcf3-c464c8091690.png"> |
-| stl_query_vw | <img width="500" alt="Screen Shot 2022-03-31 at 2 10 39 PM" src="https://user-images.githubusercontent.com/102629468/161161281-b50d7692-06f4-4133-a608-5576fa1274e4.png"> |
-| stl_query_vw | <img width="500" alt="Screen Shot 2022-03-31 at 2 10 45 PM" src="https://user-images.githubusercontent.com/102629468/161161297-6440fa1e-abee-4154-a0e4-b9dc5214f5e6.png"> |
-| stl_query_vw | <img width="500" alt="Screen Shot 2022-03-31 at 2 10 53 PM" src="https://user-images.githubusercontent.com/102629468/161161322-5b7b22c3-b5d6-4bf0-93c4-38ea7f3b518a.png"> |
-| stl_wlm_query_vw | <img width="500" alt="Screen Shot 2022-03-31 at 2 11 01 PM" src="https://user-images.githubusercontent.com/102629468/161161341-c3879d20-ac52-487e-b45f-ddde6b23df50.png"> |
-| stl_wlm_query_vw | <img width="500" alt="Screen Shot 2022-03-31 at 2 11 11 PM" src="https://user-images.githubusercontent.com/102629468/161161347-42d41083-51e2-424e-a187-ddc0dab74bea.png"> |
-| stv_node_storage_capacity_vw | None |
-| stv_recents_vw | <img width="500" alt="Screen Shot 2022-03-31 at 2 11 21 PM" src="https://user-images.githubusercontent.com/102629468/161161437-ab8b1bb2-11db-4acc-b38b-e0f29c3f9e72.png"> |
-| stv_sessions_vw | <img width="500" alt="Screen Shot 2022-03-31 at 2 11 28 PM" src="https://user-images.githubusercontent.com/102629468/161161447-5cebfffb-a27f-4c0e-ad4d-c9a8aca1a5b8.png"> |
+| CUSTOMER_HOME_CITY_to_CORE_POI | [Uploading Screen Shot 2022-08-24 at 3.34.18 PM.png…]() |
+| CORE_POI_to_SPEND_BY_DAY | <img width="510" alt="Screen Shot 2022-08-24 at 3 34 44 PM" src="https://user-images.githubusercontent.com/102629468/186545928-e8c1308a-81b9-4e44-ac86-d832e79dc44f.png"> |
+| DWELL_TIMES_to_CORE_POI |<img width="520" alt="Screen Shot 2022-08-24 at 3 34 54 PM" src="https://user-images.githubusercontent.com/102629468/186546281-18ace0f2-3935-421c-8fa9-1385f56efc9b.png">
+ |
+| VISITS_BY_DAY_to_CORE_POI |<img width="518" alt="Screen Shot 2022-08-24 at 3 35 03 PM" src="https://user-images.githubusercontent.com/102629468/186546293-e65dabd4-0bda-48e2-b24c-2231d466bf78.png">
+  |
+| MEAN_SPEND_PER_CUSTOMER_BY_INCOME_to_CORE_POI | <img width="514" alt="Screen Shot 2022-08-24 at 3 35 11 PM" src="https://user-images.githubusercontent.com/102629468/186546300-67821370-6a86-481d-98ee-38a9a2e076a5.png">
+ |
+| SPEND_BY_DAY_OF_WEEK_to_CORE_POI |<img width="501" alt="Screen Shot 2022-08-24 at 3 35 19 PM" src="https://user-images.githubusercontent.com/102629468/186546316-15c5718f-765c-485f-918f-075065b58b7d.png">
+  |
+| Core_POI to CORE_POI_SPEND | <img width="512" alt="Screen Shot 2022-08-24 at 3 35 33 PM" src="https://user-images.githubusercontent.com/102629468/186546346-17b411dd-8e94-435f-b2fc-e40a23304045.png">
+ |
+| CORE_POI_to_PATTERNS | <img width="510" alt="Screen Shot 2022-08-24 at 3 35 40 PM" src="https://user-images.githubusercontent.com/102629468/186546372-ec868404-1653-4dfc-9e5f-267687b04219.png">
+ |
+| BUCKETED_CUSTOMER_FREQUENCY_to_CORE_POI | <img width="520" alt="Screen Shot 2022-08-24 at 3 35 27 PM" src="https://user-images.githubusercontent.com/102629468/186546337-ba855f8f-9704-4acf-b0e7-3d3b68e7a9c1.png">
+ |
+| BUCKETED_CUSTOMER_INCOMES_to_CORE_POI |<img width="510" alt="Screen Shot 2022-08-24 at 3 34 36 PM" src="https://user-images.githubusercontent.com/102629468/186546496-5ac39c98-4e5d-4565-b1fc-b64544dd7a7a.png">
+ |
+| TRANSACTION_INTERMEDIARY_to_CORE_POI | <img width="514" alt="Screen Shot 2022-08-24 at 3 34 24 PM" src="https://user-images.githubusercontent.com/102629468/186546507-cfc4cea5-7cf6-471d-b817-4426ee710ecb.png"> |
 
-4. Import the TML for the worksheets and verify that it has all been imported without any errors.
-5. Import the TML for the pinboard and verify that it has all been imported without any errors.
-6. You are ready to start searching your Redshift data!
+Schema: 
+<img width="878" alt="Screen Shot 2022-08-24 at 3 34 11 PM" src="https://user-images.githubusercontent.com/102629468/186546543-db69c3fb-7a46-4a76-b564-cace7cf44910.png">
+
+
+### 4. Import the TML for the worksheets and verify that it has all been imported without any errors.
+
+### 5. Import the TML for the liveboards and verify that it has all been imported without any errors.
+  - Edit liveboard filter to analyze relevant competitors and industries. 
+
+### 6. You are ready to start searching your SafeGraph data!

@@ -4,7 +4,7 @@ Uncover ground-level competitor and consumer insights with SafeGraph & ThoughtSp
 
 SafeGraph builds datasets for physical places, powering analytics covering business listings, building footprints, and aggregated foot traffic data for millions of points of interest (POI) and thousands of brands in the US and Canada. Using ThoughtSpot, you can immediately ask location-based questions leveraging the whole breadth and depth of Safegraph data. 
 
-The SafeGraph TML Blocks provide out-of-the-box templates to help get started analyzing SafeGraph data on ThoughtSpot. Analyze your store performance with granular details into foot traffic and consumer behavior insights. Additionally, idenify competitors and track how changing market and brand trends impact your store locations. 
+The SafeGraph TML Blocks provide out-of-the-box templates to help get started analyzing SafeGraph data on ThoughtSpot. Analyze your store performance with granular details into foot traffic and consumer behavior insights. Additionally, identify competitors and track how changing market and brand trends impact your store locations. 
 
 # Artifacts 
 
@@ -12,7 +12,7 @@ The SafeGraph TML Blocks provide out-of-the-box templates to help get started an
 - SafeGraph Competitor & Consumer Behavior
 
 ## Liveboards
-- **Industry Overview: ** Contextualize how overall industry trends impact store performance
+- **Industry Overview: Contextualize how overall industry trends impact store performance**
 
 <img width="1728" alt="Screen Shot 2022-08-24 at 5 45 33 PM" src="https://user-images.githubusercontent.com/102629468/186548843-8c77b775-6e4c-4be9-9322-4ef86ac6bc74.png">
 
@@ -34,7 +34,7 @@ Once you have downloaded the Zip file and have verified its contents, the implem
 ### 1. Explode JSON Columns
 SafeGraph Core and Patterns datasets contain JSON columns. JSON columns are rich in information, but they need to be exploded to play well in SQL. Use the examples sql in "SAFEGRAPH - JSON COLUMN EXPLODE.sql" to explode these JSON columns, so that each key-value pair becomes its own row.
 
-Feel free to explode additional JSON columns to add fields of interest. The following is the tables which are used in this template: 
+Feel free to explode additional JSON columns to add fields of interest. The following are the tables that are used in this template: 
 - BUCKETED_CUSTOMER_FREQUENCY
 - BUCKETED_CUSTOMER_INCOMES
 - CUSTOMER_HOME_CITY

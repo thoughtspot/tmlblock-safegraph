@@ -16,12 +16,12 @@ The SafeGraph TML Blocks provide out-of-the-box templates to help get started an
 
 <img width="1728" alt="Screen Shot 2022-08-24 at 5 45 33 PM" src="https://user-images.githubusercontent.com/102629468/186548843-8c77b775-6e4c-4be9-9322-4ef86ac6bc74.png">
 
-- **Competitor Insights: Map the competitive landscape with competitor consumer behavior and sales.**
+- **Competitor Insights: Map the competitive landscape with competitor consumer behavior and sales**
 
 <img width="1728" alt="Screen Shot 2022-08-24 at 5 45 18 PM" src="https://user-images.githubusercontent.com/102629468/186548852-16157ba6-8766-4e0d-9c1d-1b742c4c1b63.png">
 
 
-- **Consumer Behavior Insights: Determine how many people visit your store, who they are, and what they spend. **
+- **Consumer Behavior Insights: Determine how many people visit your store, who they are, and what they spend**
 
 <img width="1728" alt="Screen Shot 2022-08-24 at 5 44 55 PM" src="https://user-images.githubusercontent.com/102629468/186548868-fcb49abb-1104-47e6-9f17-10c40954fa4a.png">
 
